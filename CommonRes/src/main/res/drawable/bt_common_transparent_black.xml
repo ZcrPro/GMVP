@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--点击状态下，将背景降低透明度使背景透明度变暗-->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#09000000"/>
+        </shape>
+    </item>
+    <!--正常状态下，将背景作为透明色，可以使用不同场景-->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/>
+        </shape>
+    </item>
+</selector>

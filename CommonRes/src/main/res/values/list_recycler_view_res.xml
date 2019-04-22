@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CrossSlideLayout">
+        <attr name="slideDirection">
+            <enum name="center" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="top" value="2"/>
+            <enum name="right" value="3"/>
+            <enum name="bottom" value="4"/>
+        </attr>
+        <attr name="maxOffset" format="dimension"/>
+        <attr name="minOffset" format="dimension"/>
+    </declare-styleable>
+
+    <string name="refresh_slide_refresh_normal">下拉刷新</string>
+    <string name="refresh_slide_refresh_release_load">释放开始刷新</string>
+    <string name="refresh_slide_refresh_loading">正在刷新</string>
+    <string name="refresh_slide_refresh_complete">刷新完成</string>
+    <string name="refresh_slide_refresh_last_update">上次更新时间：%1$s</string>
+    <string name="refresh_slide_loading_normal">加载更多</string>
+    <string name="refresh_slide_loading_release_load">释放开始加载</string>
+    <string name="refresh_slide_loading_loading">正在加载</string>
+    <string name="refresh_slide_loading_complete">加载完成</string>
+</resources>

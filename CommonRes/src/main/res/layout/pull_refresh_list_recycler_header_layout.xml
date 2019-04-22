@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="45dp"
+    android:padding="10dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/list_recycler_view_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/list_recycler_view_tv_loading_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下拉刷新"
+            android:textColor="#999999"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:id="@+id/list_recycler_view_tv_loading_last_update_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上次更新时间：20"
+            android:textColor="#999999"
+            android:textSize="9sp"
+            android:visibility="visible"/>
+
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/list_recycler_view_progressBar"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/layout"
+        android:layout_alignTop="@+id/layout"
+        android:layout_marginRight="21dp"
+        android:layout_toLeftOf="@+id/layout"
+        />
+
+</RelativeLayout>

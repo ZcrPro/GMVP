@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--不可用-->
+    <item  android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/widget_size_5"/>
+            <solid android:color="@color/axf_common_green_btn_enable_false"/>
+        </shape>
+    </item>
+    <!--点击状态下，将背景降低透明度-->
+    <item android:state_pressed="true" android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/widget_size_5"/>
+            <solid android:color="@color/axf_common_green_btn_pressed"/>
+        </shape>
+    </item>
+    <!--正常状态下，将背景作为透明色，可以使用不同场景-->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/widget_size_5"/>
+            <solid android:color="@color/axf_common_green_btn_normal"/>
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="axf_common_blue">#507FFB</color>
+    <color name="axf_base_dialog_background">#CC285ff0</color>
+    <color name="axf_btn_enable_false">#CDD7FB</color>
+    <color name="axf_btn_enable_true">#5B7EF3</color>
+    <color name="axf_bg_blue">#e5eefd</color>
+    <color name="axf_light_gray">#9a9a9a</color>                    <!--淡灰色-->
+    <color name="axf_text_content_gray">#666666</color>             <!--文字内容-->
+    <color name="axf_text_title_gray">#333333</color>               <!--文字标题-->
+    <color name="axf_btn_uncheck_gray">#dae3ec</color>              <!--未点击的按钮背景-->
+    <color name="axf_line_gray">#f2f2f2</color>
+    <color name="axf_common_divider">#cccccc</color>
+    <!--蓝色通用按钮-->
+    <color name="axf_common_blue_btn_normal">#507FFB</color>
+    <color name="axf_common_blue_btn_pressed">#7598EB</color>
+    <color name="axf_common_blue_btn_enable_false">#C0CEF3</color>
+    <!--绿色通用按钮-->
+    <color name="axf_common_green_btn_normal">#4CC9A6</color>
+    <color name="axf_common_green_btn_pressed">#40AC8F</color>
+    <color name="axf_common_green_btn_enable_false">#C2F5E5</color>
+    <!--灰色通用按钮-->
+    <color name="axf_common_gray_btn_normal">#CCCCCC</color>
+    <color name="axf_common_gray_btn_pressed">#A5A5A5</color>
+    <color name="axf_common_gray_btn_enable_false">#E7E7E7</color>
+
+    <color name="axf_common_red">#ff4867</color>
+    <color name="axf_common_green">#4ed173</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="press_cover_light">#19ffffff</color>
+    <color name="press_cover_dark">#19000000</color>
+</resources>
