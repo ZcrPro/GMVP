@@ -10,6 +10,15 @@ android {
         versionCode rootProject.ext.android["versionCode"]
         versionName rootProject.ext.android["versionName"]
         testInstrumentationRunner rootProject.ext.dependencies["androidJUnitRunner"]
+
+        ndk {
+            abiFilters 'armeabi','x86'
+        }
+    }
+
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
     }
 
     buildTypes {
@@ -27,4 +36,14 @@ dependencies {
         exclude module: 'support-annotations'
     }
     implementation project(':CommonRes')
+    implementation rootProject.ext.dependencies["paginate"]
+    implementation rootProject.ext.dependencies["butterknife"]//添加butterknife的依赖
+    annotationProcessor rootProject.ext.dependencies["butterknife-compiler"] //添加butterknife相关依赖
+    annotationProcessor rootProject.ext.dependencies["dagger2-compiler"]
+    //test
+    testImplementation rootProject.ext.dependencies["junit"]
+    debugImplementation rootProject.ext.dependencies["canary-debug"]
+    releaseImplementation rootProject.ext.dependencies["canary-release"]
+    testImplementation rootProject.ext.dependencies["canary-release"]
+
 }

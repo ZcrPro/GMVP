@@ -44,6 +44,9 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     //tools
     api project(':app') //GMVP
+    api rootProject.ext.dependencies["progressmanager"]
+    api rootProject.ext.dependencies["retrofit-url-manager"]
+    api 'me.jessyan:arms-imageloader-glide:2.5.0'
     annotationProcessor rootProject.ext.dependencies["dagger2-compiler"]
     //test
     debugImplementation rootProject.ext.dependencies["canary-debug"]
