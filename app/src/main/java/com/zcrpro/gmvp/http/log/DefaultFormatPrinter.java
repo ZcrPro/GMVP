@@ -17,8 +17,8 @@ package com.zcrpro.gmvp.http.log;
 
 import android.text.TextUtils;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 
 import com.zcrpro.gmvp.di.module.GlobalConfigModule;
 import com.zcrpro.gmvp.utils.CharacterHandler;

@@ -15,10 +15,10 @@
  */
 package com.zcrpro.gmvp.base;
 
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.RecyclerView;
+import android.support.annotation.NonNull;
 
 import com.zcrpro.gmvp.utils.ThirdViewUtil;
 import com.zhy.autolayout.utils.AutoUtils;

@@ -18,7 +18,7 @@ package com.zcrpro.gmvp.mvp;
 import android.app.Activity;
 import android.content.Intent;
 
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 
 import com.zcrpro.gmvp.utils.ArmsUtils;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 package com.zcrpro.gmvp.base;
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 
 import com.zcrpro.gmvp.di.component.AppComponent;
 

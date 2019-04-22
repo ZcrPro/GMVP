@@ -17,7 +17,7 @@ package com.zcrpro.gmvp.http.imageloader;
 
 import android.content.Context;
 
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 
 
 import com.zcrpro.gmvp.utils.Preconditions;

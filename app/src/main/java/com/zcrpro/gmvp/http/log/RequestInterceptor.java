@@ -17,7 +17,7 @@ package com.zcrpro.gmvp.http.log;
 
 
 
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 
 import com.zcrpro.gmvp.di.module.GlobalConfigModule;
 import com.zcrpro.gmvp.http.GlobalHttpHandler;

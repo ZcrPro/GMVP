@@ -22,11 +22,9 @@ import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Message;
+import android.support.annotation.Nullable;
+import android.support.design.widget.Snackbar;
 import android.view.View;
-
-import androidx.annotation.Nullable;
-
-import com.google.android.material.snackbar.Snackbar;
 import com.zcrpro.gmvp.base.delegate.AppLifecycles;
 import com.zcrpro.gmvp.utils.ArmsUtils;
 

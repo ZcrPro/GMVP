@@ -17,8 +17,8 @@ package com.zcrpro.gmvp.integration.lifecycle;
 
 import android.app.Activity;
 
-import androidx.annotation.NonNull;
-import androidx.fragment.app.Fragment;
+import android.support.annotation.NonNull;
+import android.support.v4.app.Fragment;
 
 import com.trello.rxlifecycle2.RxLifecycle;
 import com.zcrpro.gmvp.utils.RxLifecycleUtils;

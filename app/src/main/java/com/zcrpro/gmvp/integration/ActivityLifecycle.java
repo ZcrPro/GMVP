@@ -19,9 +19,9 @@ import android.app.Activity;
 import android.app.Application;
 import android.os.Bundle;
 
-import androidx.annotation.NonNull;
-import androidx.fragment.app.FragmentActivity;
-import androidx.fragment.app.FragmentManager;
+import android.support.annotation.NonNull;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
 
 import com.zcrpro.gmvp.base.BaseFragment;
 import com.zcrpro.gmvp.base.delegate.ActivityDelegate;

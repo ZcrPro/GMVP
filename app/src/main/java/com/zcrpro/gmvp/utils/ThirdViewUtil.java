@@ -23,7 +23,7 @@ import android.content.pm.PackageManager;
 import android.util.AttributeSet;
 import android.view.View;
 
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 
 import com.zhy.autolayout.AutoFrameLayout;
 import com.zhy.autolayout.AutoLinearLayout;

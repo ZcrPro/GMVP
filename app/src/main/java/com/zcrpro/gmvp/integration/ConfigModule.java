@@ -20,9 +20,9 @@ import android.app.Application;
 import android.content.Context;
 
 
-import androidx.annotation.NonNull;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
+import android.support.annotation.NonNull;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 
 import com.zcrpro.gmvp.base.delegate.AppLifecycles;
 import com.zcrpro.gmvp.di.module.GlobalConfigModule;

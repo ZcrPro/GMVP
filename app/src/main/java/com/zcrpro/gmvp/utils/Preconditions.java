@@ -16,7 +16,7 @@
 package com.zcrpro.gmvp.utils;
 
 
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 
 /**
  * ================================================

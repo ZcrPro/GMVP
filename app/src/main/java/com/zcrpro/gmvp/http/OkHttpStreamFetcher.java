@@ -17,7 +17,7 @@ package com.zcrpro.gmvp.http;
 
 import android.util.Log;
 
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 
 import com.bumptech.glide.Priority;
 import com.bumptech.glide.load.DataSource;

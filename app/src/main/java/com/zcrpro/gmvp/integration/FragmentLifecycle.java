@@ -17,12 +17,12 @@ package com.zcrpro.gmvp.integration;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.view.View;
 
 
-import androidx.annotation.NonNull;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
+import android.support.annotation.NonNull;
+import android.support.v4.app.FragmentManager;
 
 import com.zcrpro.gmvp.base.delegate.FragmentDelegate;
 import com.zcrpro.gmvp.base.delegate.FragmentDelegateImpl;

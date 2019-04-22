@@ -18,7 +18,7 @@ package com.zcrpro.gmvp.base.delegate;
 import android.app.Application;
 import android.content.Context;
 
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 
 /**
  * ================================================

@@ -17,7 +17,7 @@ package com.zcrpro.gmvp.integration;
 
 import android.content.Context;
 
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 
 import com.zcrpro.gmvp.mvp.IModel;
 

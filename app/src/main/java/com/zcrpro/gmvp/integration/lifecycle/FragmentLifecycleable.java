@@ -16,7 +16,7 @@
 package com.zcrpro.gmvp.integration.lifecycle;
 
 
-import androidx.fragment.app.Fragment;
+import android.support.v4.app.Fragment;
 
 import com.trello.rxlifecycle2.RxLifecycle;
 import com.trello.rxlifecycle2.android.FragmentEvent;

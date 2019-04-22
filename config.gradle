@@ -29,7 +29,6 @@ ext {
                 "cardview-v7"              : "com.android.support:cardview-v7:${version["androidSupportSdkVersion"]}",
                 "annotations"              : "com.android.support:support-annotations:${version["androidSupportSdkVersion"]}",
                 "recyclerview-v7"          : "com.android.support:recyclerview-v7:${version["androidSupportSdkVersion"]}",
-                "androidx-annotation"      : "androidx.annotation:annotation:1.0.0",
 
                 //network
                 "retrofit"                 : "com.squareup.retrofit2:retrofit:${version["retrofitSdkVersion"]}",

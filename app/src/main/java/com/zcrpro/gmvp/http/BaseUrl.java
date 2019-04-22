@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 package com.zcrpro.gmvp.http;
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 import okhttp3.HttpUrl;
 
 /**

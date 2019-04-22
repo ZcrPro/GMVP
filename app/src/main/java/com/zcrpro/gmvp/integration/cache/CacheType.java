@@ -18,8 +18,7 @@ package com.zcrpro.gmvp.integration.cache;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.content.Context;
-
-import androidx.fragment.app.Fragment;
+import android.support.v4.app.Fragment;
 
 import com.zcrpro.gmvp.di.component.AppComponent;
 import com.zcrpro.gmvp.integration.RepositoryManager;

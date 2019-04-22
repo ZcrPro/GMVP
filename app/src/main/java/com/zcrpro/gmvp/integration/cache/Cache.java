@@ -17,8 +17,8 @@ package com.zcrpro.gmvp.integration.cache;
 
 import android.app.Application;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 
 import com.zcrpro.gmvp.di.module.GlobalConfigModule;
 
