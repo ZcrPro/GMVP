@@ -12,7 +12,7 @@ android {
         testInstrumentationRunner rootProject.ext.dependencies["androidJUnitRunner"]
 
         ndk {
-            abiFilters 'armeabi','x86'
+            abiFilters 'armeabi'
         }
     }
 
@@ -37,6 +37,9 @@ dependencies {
     }
     implementation project(':CommonRes')
     implementation rootProject.ext.dependencies["paginate"]
+    implementation(rootProject.ext.dependencies["cardview-v7"]) {
+        exclude module: 'support-annotations'
+    }
     implementation rootProject.ext.dependencies["butterknife"]//添加butterknife的依赖
     annotationProcessor rootProject.ext.dependencies["butterknife-compiler"] //添加butterknife相关依赖
     annotationProcessor rootProject.ext.dependencies["dagger2-compiler"]

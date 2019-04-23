@@ -17,33 +17,17 @@ package com.zcrpro.gmvp.sample.app;
 
 import android.app.Application;
 import android.content.Context;
-import android.os.Environment;
 import android.support.annotation.NonNull;
-import android.util.Log;
-import android.widget.Toast;
-
 
 import com.squareup.leakcanary.LeakCanary;
 import com.squareup.leakcanary.RefWatcher;
 import com.zcrpro.gmvp.base.delegate.AppLifecycles;
 import com.zcrpro.gmvp.integration.cache.IntelligentCache;
-import com.zcrpro.gmvp.sample.app.utils.CreateFiles;
 import com.zcrpro.gmvp.utils.ArmsUtils;
 import com.zhihuianxin.xyaxf.commonsdk.BuildConfig;
 
-import org.json.JSONObject;
-
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.Map;
-
 import butterknife.ButterKnife;
 import timber.log.Timber;
-import xcrash.ICrashCallback;
-import xcrash.TombstoneManager;
-import xcrash.TombstoneParser;
-import xcrash.XCrash;
 
 /**
  * ================================================
