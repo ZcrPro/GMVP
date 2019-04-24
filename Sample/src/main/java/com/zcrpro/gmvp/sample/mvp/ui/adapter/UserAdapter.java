@@ -29,10 +29,10 @@ import java.util.List;
 /**
  * ================================================
  * 展示 {@link DefaultAdapter} 的用法
- * <p>
- * Created by JessYan on 09/04/2016 12:57
- * <a href="mailto:jess.yan.effort@gmail.com">Contact me</a>
- * <a href="https://github.com/JessYanCoding">Follow me</a>
+ *
+ * Created by zcrpro on 2019-04-19
+ * <a href="mailto:zcrpro@gmail.com">Contact me</a>
+ * <a href="https://github.com/ZcrPro/GMVP">Follow me</a>
  * ================================================
  */
 public class UserAdapter extends DefaultAdapter<User> {

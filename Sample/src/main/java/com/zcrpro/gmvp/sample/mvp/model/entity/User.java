@@ -18,10 +18,10 @@ package com.zcrpro.gmvp.sample.mvp.model.entity;
 /**
  * ================================================
  * User 实体类
- * <p>
- * Created by JessYan on 04/09/2016 17:14
- * <a href="mailto:jess.yan.effort@gmail.com">Contact me</a>
- * <a href="https://github.com/JessYanCoding">Follow me</a>
+ *
+ * Created by zcrpro on 2019-04-19
+ * <a href="mailto:zcrpro@gmail.com">Contact me</a>
+ * <a href="https://github.com/ZcrPro/GMVP">Follow me</a>
  * ================================================
  */
 public class User {

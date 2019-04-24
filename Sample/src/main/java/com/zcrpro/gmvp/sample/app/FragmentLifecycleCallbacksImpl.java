@@ -30,10 +30,10 @@ import timber.log.Timber;
 /**
  * ================================================
  * 展示 {@link FragmentManager.FragmentLifecycleCallbacks} 的用法
- * <p>
- * Created by JessYan on 23/08/2018 17:14
- * <a href="mailto:jess.yan.effort@gmail.com">Contact me</a>
- * <a href="https://github.com/JessYanCoding">Follow me</a>
+ *
+ * Created by zcrpro on 2019-04-19
+ * <a href="mailto:zcrpro@gmail.com">Contact me</a>
+ * <a href="https://github.com/ZcrPro/GMVP">Follow me</a>
  * ================================================
  */
 public class FragmentLifecycleCallbacksImpl extends FragmentManager.FragmentLifecycleCallbacks{

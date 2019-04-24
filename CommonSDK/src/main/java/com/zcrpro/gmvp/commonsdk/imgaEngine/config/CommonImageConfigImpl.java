@@ -24,9 +24,9 @@ import com.zcrpro.gmvp.http.imageloader.ImageConfig;
 
 /**
  * ================================================
- * Created by JessYan on 30/03/2018 17:16
- * <a href="mailto:jess.yan.effort@gmail.com">Contact me</a>
- * <a href="https://github.com/JessYanCoding">Follow me</a>
+ * Created by zcrpro on 2019-04-19
+ * <a href="mailto:zcrpro@gmail.com">Contact me</a>
+ * <a href="https://github.com/ZcrPro/GMVP">Follow me</a>
  * ================================================
  */
 public class CommonImageConfigImpl extends ImageConfig {

@@ -29,10 +29,10 @@ import retrofit2.http.Query;
  * ================================================
  * 展示 {@link Retrofit#create(Class)} 中需要传入的 ApiService 的使用方式
  * 存放关于用户的一些 API
- * <p>
- * Created by JessYan on 08/05/2016 12:05
- * <a href="mailto:jess.yan.effort@gmail.com">Contact me</a>
- * <a href="https://github.com/JessYanCoding">Follow me</a>
+ *
+ * Created by zcrpro on 2019-04-19
+ * <a href="mailto:zcrpro@gmail.com">Contact me</a>
+ * <a href="https://github.com/ZcrPro/GMVP">Follow me</a>
  * ================================================
  */
 public interface UserService {

@@ -19,7 +19,11 @@ import com.zhihuianxin.xyaxf.commonres.R;
 import com.zhihuianxin.xyaxf.commonres.view.dialog.AppLoadingDialog;
 
 /**
- * Created by zcrpro on 2016/10/12.
+ * ================================================
+ * Created by zcrpro on 2019-04-19
+ * <a href="mailto:zcrpro@gmail.com">Contact me</a>
+ * <a href="https://github.com/ZcrPro/GMVP">Follow me</a>
+ * ================================================
  */
 
 public abstract class BaseActionBarActivity<T extends IPresenter> extends BaseActivity<T> implements IView {
